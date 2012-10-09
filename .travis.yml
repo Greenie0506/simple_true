@@ -1,0 +1,6 @@
+notifications:
+  webhooks:
+    urls:
+      - http://projectmonitor-acceptance.herokuapp.com/projects/a5f3bdf5-0aa4-4b12-934c-98af490d0011/status
+    on_success: always
+    on_failure: always
